@@ -1,11 +1,11 @@
 #include "queue.h"
 
 void queue::Analysis() {
-	cout << "Æò±Õ : " << sum / 120 << " ("
+	cout << "í‰ê·  : " << sum / 120 << " ("
 		<<(sum/120)*100/capacity<<" % )" << endl;
-	cout << "¼Õ½Ç : " << lost << endl;
+	cout << "ì†ì‹¤ : " << lost << endl;
 	Sort();
-	cout << "ÃÖ°íÄ¡ : " << NofPackets[0] << endl;
+	cout << "ìµœëŒ€ì¹˜ : " << NofPackets[0] << endl;
 }
 void queue::Graphtxt(string a) {
 	ofstream xx(a);
